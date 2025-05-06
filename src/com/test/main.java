@@ -3,12 +3,17 @@ import java.util.*;
 public class main {
 
 	public static void main(String[] args) {
-		System.out.println("What you want to print for n times type that string");
-		String message=sc.next();
-		System.out.println("How Many Times");
-		int n=sc.nextInt();
-		for(int i=0;i<n;i++){
-			System.out.println(message);
+		System.out.println("Printing Square");
+		for(int i=0;i<6;i++){
+			for(int j=0;j<6;j++{
+				if(i==0 || j==0 || i==5 || j==5){
+					System.out.print(" * ");
+				}
+				else{
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
 		}
 	}
 
